@@ -1,0 +1,12 @@
+2022-07-13 16:31:18,734 INFO com.ibm.academia.restapi.items.RestItemsTApplication [restartedMain] Starting RestItemsTApplication using Java 17.0.3 on IBM-PF3AKMFS with PID 6192 (C:\Users\108481781\Downloads\Spring\RESTItemsT\target\classes started by 108481781 in C:\Users\108481781\Downloads\Spring\RESTItemsT)
+2022-07-13 16:31:18,734 INFO com.ibm.academia.restapi.items.RestItemsTApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-13 16:31:19,002 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-07-13 16:31:19,007 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-07-13 16:31:19,007 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-13 16:31:19,017 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api/v1/rest-items] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-13 16:31:19,017 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 280 ms
+2022-07-13 16:31:19,073 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-13 16:31:19,083 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8002 (http) with context path '/api/v1/rest-items'
+2022-07-13 16:31:19,088 INFO com.ibm.academia.restapi.items.RestItemsTApplication [restartedMain] Started RestItemsTApplication in 0.443 seconds (JVM running for 440.985)
+2022-07-13 16:31:19,091 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-07-13 16:31:22,975 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(19)-127.0.0.1] Application shutdown requested.
