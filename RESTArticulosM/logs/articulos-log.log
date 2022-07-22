@@ -1,0 +1,44 @@
+2022-07-21 13:50:06,018 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.7.Final
+2022-07-21 13:50:06,079 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-21 13:50:06,693 INFO com.ibm.academia.restapi.articulos.RestArticulosMApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-21 13:50:07,927 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=cdb60a60-4a92-3815-ba06-c8dd8c578d30
+2022-07-21 13:50:08,972 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-07-21 13:50:08,990 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8002"]
+2022-07-21 13:50:08,991 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-07-21 13:50:08,991 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-07-21 13:50:09,155 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api/v1/rest-articulos] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-21 13:50:09,156 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2422 ms
+2022-07-21 13:50:09,331 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2022-07-21 13:50:09,331 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-21 13:50:09,341 WARN com.netflix.config.sources.URLConfigurationSource [restartedMain] No URLs will be polled as dynamic configuration sources.
+2022-07-21 13:50:09,341 INFO com.netflix.config.sources.URLConfigurationSource [restartedMain] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-21 13:50:09,712 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-21 13:50:10,072 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-07-21 13:50:10,226 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-07-21 13:50:10,462 WARN org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [restartedMain] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2022-07-21 13:50:10,679 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-07-21 13:50:10,757 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-07-21 13:50:10,971 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-07-21 13:50:10,972 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-07-21 13:50:11,216 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-07-21 13:50:11,217 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-07-21 13:50:11,708 INFO com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [restartedMain] Resolving eureka endpoints via configuration
+2022-07-21 13:50:11,746 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Disable delta property : false
+2022-07-21 13:50:11,746 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Single vip registry refresh property : null
+2022-07-21 13:50:11,746 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Force full registry fetch : false
+2022-07-21 13:50:11,746 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application is null : false
+2022-07-21 13:50:11,746 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Registered Applications size is zero : true
+2022-07-21 13:50:11,747 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Application version is -1: true
+2022-07-21 13:50:11,747 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Getting all instance registry info from the eureka server
+2022-07-21 13:50:11,935 INFO com.netflix.discovery.DiscoveryClient [restartedMain] The response status is 200
+2022-07-21 13:50:11,944 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Starting heartbeat executor: renew interval is: 30
+2022-07-21 13:50:11,955 INFO com.netflix.discovery.InstanceInfoReplicator [restartedMain] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-07-21 13:50:11,973 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1658429411972 with initial instances count: 2
+2022-07-21 13:50:11,980 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-ARTICULOS with eureka with status UP
+2022-07-21 13:50:11,981 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Saw local status change event StatusChangeEvent [timestamp=1658429411981, current=UP, previous=STARTING]
+2022-07-21 13:50:11,985 INFO org.apache.coyote.http11.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-8002"]
+2022-07-21 13:50:11,986 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-ARTICULOS/10.130.205.13:api-articulos:8002: registering service...
+2022-07-21 13:50:12,022 INFO com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_API-ARTICULOS/10.130.205.13:api-articulos:8002 - registration status: 204
+2022-07-21 13:50:12,051 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8002 (http) with context path '/api/v1/rest-articulos'
+2022-07-21 13:50:12,052 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8002
+2022-07-21 13:50:12,241 INFO com.ibm.academia.restapi.articulos.RestArticulosMApplication [restartedMain] Started RestArticulosMApplication in 6.898 seconds (JVM running for 8.219)
